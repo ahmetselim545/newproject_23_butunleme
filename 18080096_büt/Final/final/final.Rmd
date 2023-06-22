@@ -1,0 +1,626 @@
+---
+title: "Türkiye'de Üniversite Tercih Sebepleri"
+author: 
+  - Ahmet Selim Koç[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+abstract:  Bu çalışmada üniversite tercihlerini etkileyen faktörler ekonomi, aile ve üniversitenin imajı olmak üzere gruplandırılarak incelenmiş ve bu kategorilerin öğrencilerin üniversite tercihinde ne derece etkin olduğu anlaşılmaya çalışılmıştır. Bu doğrultuda literatür taraması yapılmış; WhatsApp, Google Formlar gibi çeşitli internet platformlarında anketler düzenlenerek veri toplanmış, bu veriler baz alınarak grafikler oluşturulmuş ve veriler analiz edilmiştir.
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 18080096, [Github Repo](https://github.com/ahmetselim545/newproject_23_butunleme.git)
+# Giriş
+
+Üniversite tercihi öğrencilerin tüm hayatını belirleyen en önemli
+kararlardan biridir. Bu tercih öğrencilerin eğitimini aldığı alanda
+çalışıp/çalışmayacağını, öğrencilerin kişiliğini, gelecekteki muhtemel
+maddi durumunu belirleyen en önemli faktörlerden biridir, bu sebeple
+üniversite tercihi öğrenciler için çok daha kıymetli hale gelmiştir. Bu
+noktada genç yaşlarda kendisine en uygun üniversite seçimini yapmaya
+çalışan bireyler kendi istek ve ilgi alanları, ekonomik şartları,
+bulundukları ülkedeki/şehirdeki üniversitelerin akademik durumu ve
+yapısı gibi çok çeşitli faktörleri göz önünde bulundururlar, nitekim
+yapılan çeşitli araştırmalar da bize bunu göstermektedir: "Üniversite
+tercih kriterleri, üniversite adaylarının demografik, sosyokültürel,
+ekonomik, psikografik özelliklerine göre farklılık
+gösterebilmektedir."(Soutar ve Turner (2002: 40). Bu bağlamda
+bakıldığında, tercih kriterlerinin önemi farklı ülkelerde yapılan
+çalışmalarca açıklanmıştır. Örnek vermek gerekirse: Soutar ve Turner
+(2002: 43), "Avusturalya'daki öğrencilerin üniversite tercihinde etkili
+olan faktörleri önemine göre şu şekilde sıralamıştır: Üniversitede
+verilen derslerin kazanılmak istenen mesleğe uygunluğu %15,
+üniversitenin ünü %12, iş bulma ümidi %12, öğretim kalitesi %10,
+üniversite tipi %9, üniversitenin aileden uzaklığı %8 ve aynı
+üniversiteyi arkadaşlarının tercih edip etmemesinin %8 oranında etkili
+olduğunu ifade etmişlerdir."(Soutar and Turner (2002))
+
+Bu çalışmada yapılan anketler ile elde edilen veriler ile öğrencilerin
+tercihleri incelenmiştir.
+
+Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları
+kesinlikle içermesi gerekmektedir. Burada kullanılan başlıklar haricinde
+farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı
+taslak olarak kullanıp içeriğini projenize uyarlayınız.
+
+## Çalışmanın Amacı
+
+Hazırlanan bu projede üniversite öğrencilerinin üniversite kriterlerinin
+ne olduğu incelenmiş ve bu kriterlerin üniversite tercihinde ne kadar
+etkili olduğu incelenmiştir. Üniversite seçiminde öğrencilerin dikkate
+aldığı kriterler, bunların kendi içinde önem derecesi ve bu
+parametrelerdeki olası olumlu/olumsuz değişikliklerin farklı cinsiyete,
+yaşa ve sosyo-ekonomik durumlara sahip kişilerin tercihine nasıl
+yansıyacağı anlaşılmaya çalışılmıştır. Tüm bu istatistiksel veriler ve
+kriterler ile doğru üniversite tercihinde bulunmanın bireylerin gözünde
+ne derece önemli olabildiği ve hangi imkanları beraberinde getireceği
+sorgulanmıştır.
+
+## Literatür
+
+Literatür bölümünde üniversite tercihlerini etkileyen faktörler 5 başlık
+altında incelenecektir. Bunlar; a) Ekonomi b) Şehir c) İmaj ve Kurum d)
+Aile e) Üniversite ve Meslek Seçimi'dir.
+
+Bu başlıklar genel anketimize verilen cevaplar doğrultusunda
+belirlenmiştir.
+
+a)Ekonomi Bireyler için büyük önem taşıyan yüksek öğretim kurumları;
+istihdamın artması, kişisel gelişim, kültürel açıdan kalkınma, ekonomik
+büyüme ve istikrar gibi konular ile toplumun gelişiminde önemli bir rol
+oynamaktadır. Bu bağlamda, öznelden genele doğru bir etki yaratan
+kurumların ana görevlerinin yanı sıra ekonomik olarak etkileri de
+azımsanmayacak derece büyüktür. Bu etki 1960'lardan itibaren Avrupa
+Ülkelerinde 'bölgesel kalkınma' unsuru olarak görülmekle birlikte,
+bulundukları bölgeleri farklı şekillerde etkileyebileceği beklentileri
+insanlarda oluşmuş ve yaygınlaşmıştır (OECD, 1982:51). Ekonomik
+etkenleri oluşturan bu beklentiler dört ana grupta incelenebilir.
+(Florax 1987:51-55)(Görkemli (2009)): • Gelirin bölgesel dağılımı,
+bölgenin ekonomik yapısından kaynaklı işgücü ve işgücüne dayalı gelişme
+gibi beklentiler, • Barınma ve sağlık imkalarının da dahil olduğu
+iletişim ve taşımacılık altyazpısının gelişmesi için beklenen
+beklentiler, • Yaşam kalitesinin iyileşmesi sonucu artması beklenen
+kültürel faaliyetlerin yaygınlaşıp çoğalması gibi beklentiler, • Doğumun
+artıp ölümün azalması sonucu nüfus artışı, eğitime katılma ile birlikte
+göç eğiliminin azalması gibi eğitimsel ve demografik beklentiler.
+
+b)Şehir Üniversite seçimlerinde üniversiteye ait özelliklerin yanısıra
+hangi şehirde bulunduğu da göz önüne alınmaktadır. Bu nedenle konunun
+şehir bazında, bütüncül bir bakış açısıyla değerlendirilmesi önem
+taşımaktadır. Üniversite tercihlerine ilişkin yapılan araştırmalar
+sonucu diyebiliriz ki: büyük oranda üniversitenin bulunduğu şehir veya
+üniversitenin özellikleri göz önüne alınarak seçim yapılmıştır. Ancak,
+adaylar için hem üniversitenin konumu hem de özellikleri biribirinden
+ayrı değerlendirilemeyeceğinden dolayı, bu iki ölçütün bir arada ele
+alınması büyük önem taşımaktadır. Üniversite çevresinin sosyo-kültürel
+yapısı, konut imkanları, adayının yaşadığı şehir ile tercih edeceği
+üniversite arasındaki mesafe, tercih edeceği şehrin mevsimsel ve doğal
+özellikleri ile birlikte spor imkanları gibi unsurlar bulunduğu bölgenin
+seçilmesindeki başlıca etkenlerdir(Fırat and Kömürcüoğlu (2015)). Buna
+ek olarak Cerit vd., (2007) ve Sojkin vd., (2015)'nin çalışmalarında
+adayın cinsiyeti şehirsel faktörlere atfedilen önem sıralamasında
+farklılık yaratabilmektedir(CEYLAN, KÖSE, and AYDIN (2017)).
+
+c)İmaj ve Kurum İmaj zihinde canlandırılan nesne, kavram, durum ve
+sembollerdir. Kurum veya kişiler arasında birbirleri üzerinde bırakmış
+oldukşarı izlenimlerdir. Kurum imajı ise kamuoyunda oluşan olayı, içinde
+bulunduğu toplumun düşüncelerinde oluşan imgelerin tamamıdır. Akademik
+saygınlık ve kurum imajıda üniversite tercihini etkileyen
+kriterlerdendir. Üniversite ki öğretim görevlilerinin yayınladıkları
+makale sayısı, kamuoyu saygınlığı, eğitim kalitesi, üniversite isminin
+itibarı, mezunlarının iş bulma oranı kurum imajının başlıca öğeleridir.
+Kelling vd. (2007) Üniversite tercih döneminde dikkate alınan en önemli
+etkenin akademik saygınlık olduğunu belirtmiştir. Soutar ve Turner
+(2002) da akademik saygınlığı üniversite seçiminde "kalite" faktörünü
+dahil ederek, bunun tercihi etkileyen temel etmenlerden biri olduğunu
+söylemiştir. Baker ve Brown (2007) kurum imajının üniversite seçim
+sürecinde önemli faktörlerden biri olduğunu İngiliz üniversitelerinin
+olumlu imajının öğrencileri seçim sürecinde etkilediğini ortaya koyarak
+göstermiştir.(Akar (2012)) Son dönemlerde Türkiye'de altyapısı
+hazırlanmadan her ile bir üniversite açılması, bunun yanısıra çok
+önceden kurulsa bile fiziki altyapısı tamamlanmamış üniversitelerin
+bulunması, üniversitenin sahip olduğu kampüsün ve bu kampüsün içinde ki
+sosyal alanlar üniversitenin tercihinde etkili olabileceği
+düşünülebilir. Nitekim öğrencinin modern derslik, fiziki altyapı, sosyal
+kampüsü seçmesi daha olasıdır. (Absher ve Crawford,1996). Lin (1997)
+Hollanda'da kampüsdeki öğrenci yaşamı, modern binalar, uluslararası
+öğrenci yapısı gibi değişkenlerin öğrencilerin üniversiteyi tercih
+nedenlerinden olduğunu ileri sürmüştür. (Akar (2012)) Üniversitenin
+öğrencilerine burs, staj, değişim programları ile yurt dışında eğitim
+sağlaması, mezuniyette uluslararası diploma sağlaması ve iş bulma
+konusunda yardımcı olması tercih sürecini olumlu etkiler. Paulsen (1990)
+ve Murray vd. (1997) üniversite tercihinde mezuniyet sonrası iş bulma
+olanaklarının ve olanaklara ulaşmada üniversitenin yardım
+faaliyetlerinin öğrencilerin tercihlerini etkilediğini göstermiştir.
+(Akar (2012)) Türkiye'de genellikle devlet üniversitelerinin reklam
+verme gibi alışkanlıkları yoktur. Kar amacı gütmedikleri için kontenjan
+doldurma gibi sıkıntısı da yoktur. Fakat son zamanlarda devlet
+üniversiteleri de tıpkı vakıf üniversiteleri gibi reklam verip
+itibarlarını arttırmaya başarılı öğrencilere burs olanakları sağlayıp
+öğeenci profilini daha iyi hale getirmeye çalıştığı gözlenmektedir.
+(Akar (2012))
+
+d)Aile Öğrencilerin üniversite tercihlerinde pek çok etmen
+bulunmaktadır. Finansal durum, tercihler, aile baskısı, hayaller. Peki
+aile baskısı tercihlerde ne kadar etkili? Özellikle de bizim gibi aile
+bağlarının ve aile otoritesinin güçlü olduğu bir toplumda. Peki
+üniversite tercihlerinin önemi nereden geliyor? Bu soruya hangi mesleği
+yapıyorsunuz ve hangi bölümden mezun oldunuz gibi karşı soru cümleleri
+ile cevap vererek konuyu daha netleştirebiliriz. Üniversiteler
+yapacağımız meslek üzerinde doğrudan etkili. Haliyle meslek seçimi için
+üniversite de önemli bir hale geliyor. Bu önem üniversitenin sosyal
+statüsü, mezunların başarı oranları ve benzeri şeyler ile gerek bölüm
+gerek hangi üniversite olacağı ile doğrudan önemli bir hale geliyor.
+Bireyler meslek seçimlerini 17-23 yaş aralığında yapıyor tam da
+üniversiteye başlayacakları zaman diliminde. Ve çoğunlukla bu zaman
+diliminde bireyler halen aile kontrolünde ve baskısı altında yaşarlar.
+Yani kendi düşünceleri sonrasında ilk etkilenecekleri şey aileleridir.
+Pek çok genç üniversite tercihleri sırasında kendi kararlarını verirken
+belli bir grup direkt aile etkisinde seçimler yapıyor. Elçin Kılıç'ın
+araştırmasında cinsiyete bağlı olarak baskının oranının da değiştiğini
+görüyoruz.Toplumsal yapı ölçüsünde kadınlara daha baskın bir aile etkisi
+görülürken erkekler için daha özgür modeller çiziliyor.Mustafa Çoşar ve
+Elçin Kılıç'ın araştırmalarında görüyoruz ki düşükte olsa aile baskısı
+üniversite tercihlerinde etkili.(ÖZGELDİ and KILIÇ (2019)) / (Coşar
+(2016))
+
+e)Üniversite ve Meslek Seçimi Çoğu kişi çocukluğundan itibaren gelecekte
+hangi meslekte olacağını düşünmekte ve gelecek için planlar yapmaktadır.
+İlk başlarda tamamıyla hayali olan bu durum, zamanla daha gerçekçi
+olmaktadır. Meslek seçimi hem kişisel hem de toplumsal olarak çok ciddi
+bir konu olmasına rağmen, Türkiye'de hala meslek tercihi büyük ölçüde
+tesadüflere bağlıdır. Fakat üniversite veya meslek tercihi sırasında
+bireylerin rastgele yapacağı tercih ile bütün hayatlarını olumsuz
+etkileyen sonuçlarla karşılaşabilir. Bu yüzden tercih aşamasında kendi
+özelliklerini bilerek, özelliklerine uygun tercih olmasına dikkat
+etmelidir. (KİTABI (2016)). Gençlerin, meslek seçiminde de üniversite
+tercihlerinde de aynı sorunlarla karşılaşması muhtemeldir. Örneğin,
+tercih edilecek üniversitenin ikamet alanına yakınlığı, coğrafi konumu,
+mezuniyet sonrası iş alanlarına yakınlığı, üniversitenin içerisinde
+bulunduğu şehrin sosyoekonomik düzeyi, ulusal ve uluslararası alandaki
+tanınırlığı, üniversiteler arası başarı sıralaması, fiziki yerleşkesi ve
+çevre düzenlemesi, barınma olaanakları ve maliyetleri, ulaşım ücretleri,
+burs olanakları, sosyal ve kültürel erkinlikler vb. gibidir. (Kazi and
+Akhlaq (2017)) Herşeye rağmen teknolojide ki gelişme sayesinde gitmek
+istedikleri üniversite hakkında tüm bilgilere ulaşabilmektedir. (KİTABI
+(2016))
+
+# Veri
+
+Proje çalışmamızda alt başlıkların anketleri farklı tarzlarda
+yapılmıştır. Sosyal medya platformları, google anketler ve yüz yüze soru
+cevap şeklinde yanıtlar toplanmıştır.
+
+-   Alt başlıkları belirlemek için yapılan genel ankete liseli ve mezun
+    öğrencilerden 87, üniversiteli öğrencilerden 74 kişi olmak üzere
+    toplamda 161 öğrenci katılmıştır(Yıldırım Beyazıd Üniversitesi,
+    Ankara Üniversitesi ve Hacettepe Üniversitesi öğrencileri tarafından
+    cevaplanmıştır.) 
+
+-   Ekonomik düzeye göre tercih farklılıklarını belirlemeyi amaçlayan
+    ankete katılımcıların %38.1'i kadın, %61.9'u erkek olmak üzere 84
+    kişi katılmıştır.
+
+-   Şehir, İmaj ve Aile bölümlerinin anketine 51 erkek ve 78 kız olmak
+    üzere toplam 129 öğrenci katılmıştır. (Katılımcıların % 86'sı lisans
+    öğrencisidir). Yaş ve bireysel gelir özet istatistikleri tabloda
+    gösterilmiştir. 
+
+-   Anketimizde 1 en düşük puanı ifade eder.
+
+Ankete katılan bireylere üniversite tercihlerinde etkilendikleri
+faktörler ekonomik, ailevi, şehirsel ve imajsal açıdan sorulmuş yaş,
+cinsiyet, gelir durumu, eğitim durumu gibi faktörlerle farklılık
+açıklanmaya çalışılmıştır.
+
+```{r results='asis'}
+
+
+
+library(xtable)
+library(tidyverse)
+library(summarytools)
+st_options(lang = "tr")
+
+
+
+names(veriler_4) <- c("sex", "age", "income", paste0("Q", 1:27))
+
+
+
+ab14 <- veriler_4 %>%
+  select("age", "income") %>%
+  descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) 
+
+
+ xtable(ab14, caption = "Özet İstatistik", label="tab:ozet") %>%
+  print(comment = FALSE, caption.placement = "top")
+ 
+
+
+```
+
+
+
+
+
+
+1)  Öğrencilere genel olarak etkilendiği faktörler sorulduğunda
+    üniversiteli öğrencilerin iş bulma faktöründen liseli ve mezun
+    öğrencilere göre daha fazla etkilendiği görülmektedir. 'Yaşadığım
+    şehirde olması' seçeneği de liseli ve mezun öğrencilere göre az önem
+    taşırken, üniversiteli öğrencilerde önemli bir etken olmuştur. Bazı
+    öğrencilerin yaptıkları şehir tercihlerinden olumsuz etkilenmeleri
+    bu faktörün önemini artıran nedenlerden biridir.
+
+2)  Üniversitenin imajının öğrenciler için önemini 10 üzerinden
+    puanlayınız dediğimizde ağırlıklı olarak 7- 10 arası puanlama
+    skalasının seçildiği görülüyor ki bu oldukça yüksek bir oran. Bu
+    sonuçlarda üniversitenin imajının hem kadınlar hem arkekler için
+    ciddi bir önem taşıdığı görülürken kadınların üniversitenin imajını
+    erkeklere kıyasla daha fazla dikkate aldığı söylenebilir ancak
+    anketteki kadın katılımcı sayısının daha fazla olduğu da
+    unutulmamalıdır.
+
+3)  Anket cevaplarına göre 'yabancı dil' imkanlarının üniversite
+    tercihinde öneminin fazla olduğu görülmektedir. Günümüz küreselleşen
+    iş dünyası dinamiklerinde yabancı dil bilmenin mesleki yetkinlik
+    açısından önemi gün geçtikçe artarken bu sonuçlar şaşırtıcı
+    olmamıştır.
+
+4)  Yurt dışına çıkabilme olanaklarına kadınlar yüksek oranlarda dikkat
+    etmektedir. Erkeklerin çoğunluğu ise orta derecede önemli olduğunu
+    söylemişlerdir. Bu durumu özellikle geri kalmış veya gelişmekte olan
+    ülkelerde kadınların kariyer yapabilme olanaklarını erkeklere
+    kıyasla daha düşük gördüklerinde yurt dışı olanaklarını
+    değerlendirme fikrinin önem kazanmasına bağlayabiliriz.
+
+5)  Ankete göre üniversitenin akademik kadrosunun öneminin fazla olduğu
+    söylenebilir.Kadınların yaklaşık %85' i 5 üzerinden 4 veya 5 önem
+    derecesi verirken, erkeklerin yaklaşık %71'i 4 veya 5 vermiştir.
+
+6)  Erkeklerin yaklaşık yarısı üniversite isminin toplumdaki statüyü
+    etkilediğini düşünürken kadınlarda bu oran yaklaşık %68' dir.
+    Kadınlar üniversite isminin bireyi daha fazla öne çıkaracağını
+    düşünmüş olabilir.
+
+7)  %100 burslu vakıf üniversitesi dahi olsa yemekhane ücretleri, sosyal
+    olanaklar ve çevre ekonomik kaygı oluşturmaktadır. Bu yüzden
+    öğrencilerin devlet üniversitesi seçme eğilimlerini inceledik. Düşük
+    gelirli ve orta gelirli öğrencilerin neredeyse hepsi devlet
+    üniversitesi seçme eğiliminde. Yüksek gelirli öğrencilere
+    baktığımızda yarısından biraz fazlası tercihlerini devlet vakıf diye
+    ayırmadıklarını gösteriyor.
+
+8)  Barınma ücretlerinin yüksek olmasından dolayı öğrencilere
+    ünivesitenin ailelerinin bulunduğu şehirde olmasının ünivesite
+    seçimini etkileyip etkilemediğini sorduğumuzda düşük gelirli
+    öğrencilerin büyük bir kısmı tercihlerinde etkili bir faktör
+    olduğunu belirtirken, orta gelirli öğrencilerde bu durum yarıyarıya
+    kadar düşüyor. Yüksek gelirli öğrenciler ise bu teklife sıcak
+    bakmıyor.
+
+9)  Öğrenciler büyük bir kısmı gitmek istedikleri Üniversite hedefini
+    sınav sonuçları açıklandıktan sonra koymuştur.
+
+10) Ailenin şehir içi veya dışı tercihinin erkeklere göre kızlar
+    üzerinde daha etkili olduğu görülmektedir ancak yine de genel olarak
+    sınırlı bir etkiye sahip olduğu görülmektedir.
+
+\newpage
+
+# Yöntem ve Veri Analizi
+
+
+```{r plot, fig.cap='genelanket', fig.width = 10, fig.height = 6}
+x <- c("Hayal ettiğim üniversite olması", "Puanıma uygun olması", "Devlet üniversitesi olması", "Üniversitenin isteğim bölüm bazında kaliteli bir eğitim vermesi", "Üniversitenin imajı", "Yaşadığım şehirde olması", "İş bulma konusunda katkısı", "Eğitim dilinin Türkçe olmsası", "Yabancı dilde eğitim imkanı sunması", "Aile yönlendirmesi", "Diğer")
+x <- factor(x, c("Hayal ettiğim üniversite olması", "Puanıma uygun olması", "Devlet üniversitesi olması", "Üniversitenin isteğim bölüm bazında kaliteli bir eğitim vermesi", "Üniversitenin imajı", "Yaşadığım şehirde olması", "İş bulma konusunda katkısı", "Eğitim dilinin Türkçe olmsası", "Yabancı dilde eğitim imkanı sunması", "Aile yönlendirmesi", "Diğer"))
+y <- c(47, 81, 65, 95, 52, 36, 46, 15, 21, 10, 9)
+Veri <- tibble(x, y)
+ggplot(data = Veri, aes(x = x, y = y))+
+   geom_bar(colour = "black", fill = "red", stat = "identity")+
+   guides(fill = FALSE)+
+   xlab("CEVAPLAR")+
+   ylab("SONUÇLAR")+
+  ggtitle("ÜNİVERSİTE TERCİHLERİNİ ETKİLEYEN FAKTÖRLER")+
+   theme(axis.text.x = element_text(angle = 90))+
+   theme(plot.title = element_text(size = 12, hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+   
+```
+
+
+```{r plot2, fig.cap='genelanketcinsiyet', fig.width = 10, fig.height = 6}
+
+a <- c("Hayal ettiğim üniversite olması", "Puanıma uygun olması", "Devlet üniversitesi olması", "Üniversitenin isteğim bölüm bazında kaliteli bir eğitim vermesi", "Üniversitenin imajı", "Yaşadığım şehirde olması", "İş bulma konusunda katkısı", "Eğitim dilinin Türkçe olmsası", "Yabancı dilde eğitim imkanı sunması", "Aile yönlendirmesi", "Diğer")
+a <- factor(a, c("Hayal ettiğim üniversite olması", "Puanıma uygun olması", "Devlet üniversitesi olması", "Üniversitenin isteğim bölüm bazında kaliteli bir eğitim vermesi", "Üniversitenin imajı", "Yaşadığım şehirde olması", "İş bulma konusunda katkısı", "Eğitim dilinin Türkçe olmsası", "Yabancı dilde eğitim imkanı sunması", "Aile yönlendirmesi", "Diğer"))
+b <- c(28, 38, 29, 58, 25, 8, 9, 8, 3, 2, 7)
+e <- c(19, 43, 36, 37, 27, 28, 37, 7, 18, 8, 2)
+ikili <- tibble(a, b, e)
+
+ggplot(ikili, aes(group = 1, x = a, y = e))+
+   geom_point(aes(y = b, color = "Lise ve mezun"))+
+   geom_line(aes(y = b, color = "Lise ve mezun"))+
+   geom_point(aes(y = e, color = "Üniversite"))+
+   geom_line(aes(y = e, color = "Üniversite"))+
+   theme(axis.text.x = element_text(angle = 90))+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "ÜNİVERSİTE TERCİHLERİNİ ETKİLEYEN FAKTÖRLER")+
+   theme(plot.title = element_text(size = 12,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+
+
+```
+
+
+```{r fig.width = 10, fig.height = 6, echo=FALSE, warning=FALSE}
+er3 <- c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+er4 <- c(0, 0, 0, 1, 3, 8, 10, 21, 29, 21, 36)
+imaj2 <- tibble(er3, er4)
+ggplot(data = imaj2, aes(x = er3 ,y = er4))+
+   geom_bar(colour = "black", fill = "red", stat = "identity")+
+   guides(fill = FALSE)+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Tercih yaparken üniversitenin imajı sizin için ne kadar önemli? ")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+```
+
+
+```{r plot3, fig.cap='imaj1', fig.width = 10, fig.height = 6}
+
+er3 <- c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+ere1 <- c(0, 0, 0, 1, 3, 4, 5, 9, 8, 11, 10)
+erk1 <- c(0, 0, 0, 0, 0, 4, 5, 12, 21, 10, 26)
+kızerkek1 <- tibble(er3, ere1, erk1)
+
+ggplot(kızerkek1, aes(x = er3, y = erk1))+
+   geom_point(aes(y = ere1, color = "ERKEK"))+
+   geom_line(aes(y = ere1, color = "ERKEK"))+
+   geom_point(aes(y = erk1, color = "KIZ"))+
+   geom_line(aes(y = erk1, color = "KIZ"))+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Tercih yaparken üniversitenin imajı sizin için ne kadar önemli?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+
+```
+
+
+```{r fig.width = 10, fig.height = 6, echo=FALSE, warning=FALSE}
+er9 <- c(1, 2, 3, 4, 5)
+er11 <- c(7, 13, 25, 35, 49)
+imaj6 <- tibble(er9, er11)
+ggplot(data = imaj6, aes(x = er9 ,y = er11))+
+   geom_bar(colour = "black", fill = "red", stat = "identity")+
+   guides(fill = FALSE)+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Üniversitenin sağladığı ''Yabancı Dil'' imkanları tercihinizi ne kadar etkiler?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+```
+
+
+```{r plot4, fig.cap='imaj2', fig.width = 10, fig.height = 6}
+
+er9 <- c(1, 2, 3, 4, 5)
+ere4 <- c(5, 8, 11, 9, 18)
+erk4 <- c(2, 5, 14, 26, 31)
+kızerkek4 <- tibble(er9, ere4, erk4)
+
+ggplot(kızerkek4, aes(x = er9, y = erk4))+
+   geom_point(aes(y = ere4, color = "ERKEK"))+
+   geom_line(aes(y = ere4, color = "ERKEK"))+
+   geom_point(aes(y = erk4, color = "KIZ"))+
+   geom_line(aes(y = erk4, color = "KIZ"))+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Üniversitenin sağladığı ''Yabancı Dil'' imkanları tercihinizi ne kadar etkiler?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+
+```
+
+
+```{r fig.width = 10, fig.height = 6, echo=FALSE, warning=FALSE}
+er9 <- c(1, 2, 3, 4, 5)
+er13 <- c(12, 9, 28, 37, 43)
+imaj8 <- tibble(er9, er13)
+ggplot(data = imaj8, aes(x = er9 ,y = er13))+
+   geom_bar(colour = "black", fill = "red", stat = "identity")+
+   guides(fill = FALSE)+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Üniversitenin sağladığı ''Yurt Dışı''na çıkabilme imkanları tercihinizde ne kadar etkili rol oynar?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+```
+
+
+```{r plot6, fig.cap='imaj4', fig.width = 10, fig.height = 6}
+
+er9 <- c(1, 2, 3, 4, 5)
+ere6 <- c(8, 5, 15, 11, 12)
+erk6 <- c(4, 4, 13, 26, 31)
+kızerkek6 <- tibble(er9, ere6, erk6)
+
+ggplot(kızerkek6, aes(x = er9, y = erk6))+
+   geom_point(aes(y = ere6, color = "ERKEK"))+
+   geom_line(aes(y = ere6, color = "ERKEK"))+
+   geom_point(aes(y = erk6, color = "KIZ"))+
+   geom_line(aes(y = erk6, color = "KIZ"))+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Üniversitenin sağladığı ''Yurt Dışı''na çıkabilme imkanları tercihinizde ne kadar etkili rol oynar?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+
+```
+
+
+```{r fig.width = 10, fig.height = 6, echo=FALSE, warning=FALSE}
+er9 <- c(1, 2, 3, 4, 5)
+er16 <- c(0, 5, 22, 37, 65)
+imaj11 <- tibble(er9, er16)
+ggplot(data = imaj11, aes(x = er9 ,y = er16))+
+   geom_bar(colour = "black", fill = "red", stat = "identity")+
+   guides(fill = FALSE)+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Üniversitenin ''Akademik Kadrosu'' sizin için ne kadar önemlidir?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+```
+
+
+```{r plot8, fig.cap='imaj6', fig.width = 10, fig.height = 6}
+
+er9 <- c(1, 2, 3, 4, 5)
+ere9 <- c(0, 2, 13, 18, 18)
+erk9 <- c(0, 3, 9, 19, 47)
+kızerkek9 <- tibble(er9, ere9, erk9)
+
+ggplot(kızerkek9, aes(x = er9, y = erk9))+
+   geom_point(aes(y = ere9, color = "ERKEK"))+
+   geom_line(aes(y = ere9, color = "ERKEK"))+
+   geom_point(aes(y = erk9, color = "KIZ"))+
+   geom_line(aes(y = erk9, color = "KIZ"))+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Üniversitenin ''Akademik Kadrosu'' sizin için ne kadar önemlidir?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+
+```
+
+
+```{r fig.width = 10, fig.height = 6, echo=FALSE, warning=FALSE}
+er20 <- c("EVET", "KISMEN EVET", "KISMEN HAYIR", "HAYIR")
+er20 <-  factor(er20, c("EVET", "KISMEN EVET", "KISMEN HAYIR", "HAYIR"))
+er22 <- c(78, 40, 7, 4)
+imaj16 <- tibble(er20, er22)
+ggplot(data = imaj16, aes(x = er20 ,y = er22))+
+   geom_bar(colour = "black", fill = "red", stat = "identity")+
+   guides(fill = FALSE)+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Hangi üniversiteden mezun olduğunuz sizin toplumdaki statünüzü etkiler mi?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+```
+
+
+```{r plot9, fig.cap='imaj7', fig.width = 10, fig.height = 6}
+
+er20 <-  factor(er20, c("EVET", "KISMEN EVET", "KISMEN HAYIR", "HAYIR"))
+ere14 <- c(25, 20, 6, 0)
+erk14 <- c(53, 20, 1, 4)
+kızerkek14 <- tibble(er20, ere14, erk14)
+
+ggplot(kızerkek14, aes(x = er20, y = erk14, group = 1))+
+   geom_point(aes(y = ere14, color = "ERKEK"))+
+   geom_line(aes(y = ere14, color = "ERKEK"))+
+   geom_point(aes(y = erk14, color = "KIZ"))+
+   geom_line(aes(y = erk14, color = "KIZ"))+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Hangi üniversiteden mezun olduğunuz sizin toplumdaki statünüzü etkiler mi?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+
+```
+
+
+```{r plot18, fig.cap='zaman1', fig.width = 10, fig.height = 6}
+f <- c("Lise Öğrenimi Sırasında", "Mezun Olduktan Sonra", "Sınav Sonuçları Açıklandıktan Sonra")
+g <- c(17, 9, 48)
+Veri3 <- tibble(f, g)
+ggplot(data = Veri3, aes(x = f, y = g))+
+   geom_bar(colour = "black", fill = "red", stat = "identity")+
+   guides(fill = FALSE)+
+   xlab("ZAMAN")+
+   ylab("SONUÇLAR")+
+   ggtitle("Gitmek istediğiniz üniversiteye ne zaman karar verdiniz ?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+```
+
+
+```{r fig.width = 10, fig.height = 6, echo=FALSE, warning=FALSE}
+er9 <- c(1, 2, 3, 4, 5)
+er35 <- c(43, 30, 26, 14, 15)
+imaj27 <- tibble(er9, er35)
+ggplot(data = imaj27, aes(x = er9 ,y = er35))+
+   geom_bar(colour = "black", fill = "red", stat = "identity")+
+   guides(fill = FALSE)+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Ailenizin şehir içi/dışı isteği tercihinizde ne kadar etkilidir?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+```
+
+
+```{r plot20, fig.cap='aile2', fig.width = 10, fig.height = 6}
+
+er9 <- c(1, 2, 3, 4, 5)
+ere25 <- c(15, 14, 10, 7, 4)
+erk25 <- c(28, 16, 16, 7, 11)
+kızerkek24 <- tibble(er9, ere25, erk25)
+
+ggplot(kızerkek24, aes(x = er9, y = erk25))+
+   geom_point(aes(y = ere25, color = "ERKEK"))+
+   geom_line(aes(y = ere25, color = "ERKEK"))+
+   geom_point(aes(y = erk25, color = "KIZ"))+
+   geom_line(aes(y = erk25, color = "KIZ"))+
+   labs(x = "CEVAPLAR", y = "SONUÇLAR", title = "Ailenizin şehir içi/dışı isteği tercihinizde ne kadar etkilidir?")+
+   theme(plot.title = element_text(size = 14,hjust = 0.5, face = "bold", colour = "black", vjust = -1))
+
+```
+
+
+
+\newpage
+
+# Sonuç
+
+Öğrencilere üniversite seçimleri için etkilendikleri faktörleri
+sorduğumuzda en çok verilen cevaplar şunlardır; hayal ettiğim üniversite
+olması, puanıma uygun olması, devlet üniversitesi olması, istediğim
+bölüm bazında kaliteli bir eğitim verilmesi, akademik kadro,
+üniversitenin tanınırlığı, imajı, istediğim dilde eğitim imkanı sunması,
+aile yönlendirmesi, yaşadığım şehride olması, iş bulma konusunda katkısı
+
+\*Önceki paragrafta faktörlerin incelenen makalelerde de kendine yer
+bulduğu görülmektedir.
+
+Üniversite tercihlerini etkileyen faktörler öğrencilerin verdikleri
+cevaplar doğrultusunda ekonomik etkenler, ailevi etkenler, şehir etkeni
+ve imaj etkeni olmak üzere 4 ana başlık altında toplanmıştır. Yapılan
+çizgi grafikleri ile cinsiyet ,gelir ve eğitim durumuna göre
+tercihlerdeki farklılık durumu gösterilmeye çalışılmıştır. Gelir
+durumuna göre etkilenen faktörlerdeki anlamlı farklılık anova testi ile
+de desteklenmiştir. Öğrencilerin ekonomik durumu iyileştikçe parasal
+faktörlerden etkilenme miktarının ciddi şekilde azaldığı
+gözlemlenmektedir. Öğrencilerin ailelerin bulunduğu şehirde yaşayıp
+yaşamama isteğine bakıldığında bu etken liseli ve mezun öğrencilere göre
+az önem taşırken, üniversiteli öğrencilerde önemli bir etken olmuştur.
+Bazı üniversiteli öğrencilerin yaptıkları şehir tercihlerinden olumsuz
+etkilenmeleri bu faktörün önemini artıran nedenlerden biridir.
+Öğrencilerin cevaplarına baktığımızda %73,9 luk bir kısım üniversitenin
+büyükşehir de olmasının önemli bir faktör olduğunu söylemiştir buna
+rağmen [TÜMA] tarafından yapılan araştırmada da bazı büyükşehirler
+öğrenciler tarafından bekleneni karşılayamamıştır. Bunun sebebi
+öğrencilerin yüksek beklentilerle yaptığı şehir tercihlerinde
+istediklerini bulamamasıdır.
+
+Ankete katılan öğrencilerin büyük bir kısmının gitmek istediği
+üniversite hedefini sınav sonuçları açıklandıktan sonra koymaları
+öğrencilerin genelinin puanlarına göre hedef koyduğunu göstermektedir.
+
+İmkanlar dahilinde çeşitlilik yelpazesi dar olan çalışmamızın katılımcı
+sayısı arttırılırsa verilerin güvenirliği ve tutarlılığı daha iyi konuma
+gelecek, üniversite tercihlerini etkileyen faktörler çalışması daha
+doğru ve güvenilir sonuçlar elde etmemizi sağlayacaktır.
+
+***Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir.***
+
+\newpage
+
+# Kaynakça {#references}
+
+::: {#refs}
+:::
